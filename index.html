@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="normalize" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!-- side nav -->
+    <section class="side-nav">
+      <section class="nav-cat-home">
+        <img class="nav-cat" src="images/easy.jpg" alt="cat in business wear">
+        <h3 class="newton">Newton Barley</h3>
+      </section>
+      <div class="nav-divider"></div>
+      <span class="small-text">Main</span>
+      <nav>
+        <a>HOME</a>
+        <a>JOBS</a>
+        <a>RESUMES</a>
+        <a>TASKS</a>
+        <a>CALENDARS</a>
+      </nav>
+      <div class="nav-divider"></div>
+      <span class="small-text">Admin</span>
+      <nav>
+        <a>USERS</a>
+        <a>LOCATIONS</a>
+        <a>WORKFLOWS</a>
+        <a>JOB BOARDS</a>
+        <a>SOCIAL</a>
+      </nav>
+      <div class="nav-divider"></div>
+      <span class="small-text">Categories</span>
+      <nav>
+        <form class="categories small-text">
+          <input type="checkbox" value="Administrative" checked>Administrative<br>
+          <input type="checkbox" value="Design">Design<br>
+          <input type="checkbox" value="Executive">Executive<br>
+          <input type="checkbox" value="Human Resources">Human Resources<br>
+        </form>
+      </nav>
+    </section>
+    <!-- top nav -->
+    <div class="top-nav">
+      <div class="top-square"><img class="top-svg" src="images/menu.svg">
+      </div>
+      <input class="top-input" type="text" placeholder="Search for a job, task, or resume.">
+      <div class="top-square"><img class="top-svg" src="images/add-friend.svg">
+      </div>
+      <div class="top-square"><img class="top-svg" src="images/calendar.svg">
+      </div>
+      <div class="top-square"><img class="top-svg" src="images/rows.svg">
+      </div>
+    </div>
+    <!-- main -->
+    <section class="main">
+      <h1>Customer Service Representative</h1>
+      <h2><img class="location-icon" src="images/test.svg">San Francisco, CA <span class="link-text">Preview this post</span></h2>
+      <div class="buttons">
+        <div class="button button1"><img class="button-icon" src="images/circle.svg">OPEN</div> 
+        <div class="button button2"><img class="button-icons" src="images/bookmark.svg"></div> 
+        <div class="button button3"><img class="button-icons" src="images/edit.svg"></div> 
+        <div class="button button4"><img class="button-icons" src="images/trash.svg"></div> 
+      </div>
+      <div class="list">
+        <div class="item">SUMMARY</div>
+        <div class="item">APPLICANTS</div>
+        <div class="item">JOB BOARD</div>
+        <div class="item">INTERVIEWS</div>
+        <div class="item">ACTIVITY</div>
+        <div class="item">BROADCAST</div>
+        <div class="item">NOTIFICATIONS</div>
+      </div>
+      <!-- bottom -->
+      <section class="bottom">
+        <section class="data">
+          <section class="circles">
+            <svg width="100%" height="50%" viewBox="0 0 110 110">
+              <path class="first-path"
+              d="M -140 1.4
+              a 49 49 0 0 1 0 98
+              a 49 49 0 0 1 0 -98"
+             fill="transparent";
+             stroke="#28BEDF";
+             stroke-width="3";>
+               <path id="other-path"
+                  d="M -162 50
+                  a 50 9 0 0 1 0 200
+                  a 50 9 0 0 1 0 -200"
+                 fill="transparent";
+                 stroke="gray";
+                 stroke-width="1";>
+                 </path>
+              </path>
+             <path
+              d="M 10 1.4
+              a 49 49 0 0 1 0 98
+              a 49 49 0 0 1 0 -98"
+             fill="transparent";
+             stroke="#F47D83";
+             stroke-width="3";>
+               <path id="mid-other-path"
+                  d="M -10 50
+                  a 50 9 0 0 1 0 200
+                  a 50 9 0 0 1 0 -200"
+                 fill="transparent";
+                 stroke="gray";
+                 stroke-width="1";>
+                 </path>
+             </path>
+             <path id="last-path"
+              d="M 160 1.4
+              a 49 49 0 0 1 0 98
+              a 49 49 0 0 1 0 -98"
+             fill="transparent";
+             stroke="#009F9D";
+             stroke-width="3";>
+               <path id="last-other-path"
+                d="M 148 50
+                a 50 9 0 0 1 0 200
+                a 50 9 0 0 1 0 -200"
+               fill="transparent";
+               stroke="gray";
+               stroke-width="1";>
+               </path>
+             </path>
+             <text>
+              <textPath href="#other-path">
+              1,231
+             </textPath>
+              <textPath href="#mid-other-path">
+              2,481
+             </textPath>
+             <textPath href="#last-other-path">
+              895
+             </textPath>
+             </text>
+            </svg>
+          </section>
+          <img class="bar" src="images/bar-graph.svg">
+        </section>
+        <div class="divider-container">
+          <div class="bottom-divider"></div>
+          <img class="div-svg" src="images/arrow-in-circle.svg">
+          <div class="bottom-divider"></div>
+        </div>
+        <table>
+          <tr class="problem">
+            <td colspan = "2" class="problem-text">JOB DESCRIPTION <button class="edit-button"><i class="edit"></i> Edit</button></td>
+          </tr>
+          <tr class="position">
+            <th class="table-title position">POSITION TITLE</th>
+            <td class="detail position-td">Customer Service Representative</td>
+          </tr>
+          <tr>
+            <td class="hr" colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <th class="table-title">LOCATION</th>
+            <td class="detail">San Francisco, CA</td>
+          </tr>
+          <tr>
+           <td class="hr" colspan="2">
+           <hr>
+           </td>
+          </tr>
+          <tr>
+            <th class="table-title">EMPLOYMENT TYPE</th>
+            <td class="detail">Full-time</td>
+          </tr>
+          <tr>
+            <td class="hr" colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <th class="table-title">EXPERIENCE</th>
+            <td class="detail">Mid-level</td>
+          </tr>
+          <tr>
+            <td class="hr" colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+           <th class="table-title">STATUS</th>
+            <td class="detail">Open</td>
+          </tr>
+          <tr>
+            <td class="hr" colspan="2">
+            <hr>
+          </td>
+          </tr>
+          <tr>
+            <th class="table-title">DESCRIPTION</th>
+            <td class="detail">The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich</td>
+          </tr>
+          <tr>
+           <td class="hr" colspan="2">
+           <hr>
+           </td>
+          </tr>
+          <tr>
+            <th class="table-title">HIRING LEAD</th>
+            <td class="detail">
+            <div class="table-img">
+              <img class="hiring-lead" src="images/man.jpg">
+              <p class="table-name">
+              Tom Tizzy
+              </p>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="hr" colspan="2">
+            <hr>
+            </td>
+          </tr>
+          <tr>
+            <th class="table-title">APPROVED SALARY</th>
+            <td class="detail">
+            <p class="money">$58,000k</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <footer>
+        <div class="social-container">
+          <button class="social-button facebook">Post to Facebook</button>
+          <button class="social-button twitter">Tweet this Job</button>
+          <button class="social-button linkedin">Post to LinkedIn</button>
+        </div>
+        <div class="copy">
+          <h3><img class="link-job-img" src="images/test.svg">Link to This Job</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend.</p>
+          <input class="copy-input" type="url" disabled="true" value="https://loremipsum.dol/sit.">
+          <button class="copy-button">Copy</button>
+          <div class="copy-divider"></div>
+          <h3><img class="link-job-img" src="images/test.svg">Use the Button Widget</h3>
+          <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+          <input class="copy-input" type="url" disabled="true" value='<script type="text/javascript"s..'>
+          <button class="copy-button">Copy</button>
+          <div class="copy-divider"></div>
+          <h3><img class="link-job-img" src="images/test.svg">Upload Resumes by Email</h3>
+          <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
+          <input class="copy-input input-email" type="email" value="tomtizzy@gmail.com">
+        </div>
+      </footer>
+    </section>
+  <!-- <script src="script.js"></script>  -->
+  </body>
+</html>
